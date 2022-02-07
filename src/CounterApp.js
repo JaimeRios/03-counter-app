@@ -35,4 +35,8 @@ const CounterApp = ({value})=>{
 CounterApp.propTypes = {
     value: PropTypes.number
 }
+
+CounterApp.defaultProps = {
+    value: 10
+}
 export default CounterApp;
